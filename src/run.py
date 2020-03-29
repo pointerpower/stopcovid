@@ -14,7 +14,11 @@ def sms_ahoy_reply():
     resp = MessagingResponse()
 
     # Add a message
-    resp.message("Ahoy! Thanks so much for your message from vp and aman.")
+    resp.message("STOP COVID vp and aman: ")
+
+    print(request.path)
+    print(request)
+
 
     return str(resp)
 
